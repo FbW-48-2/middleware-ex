@@ -1,0 +1,26 @@
+{
+  "name": "middleware-ex",
+  "version": "1.0.0",
+  "description": "This is small exercise to practice writing our custom middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NorMenMe/middleware-ex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NorMenMe/middleware-ex/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/NorMenMe/middleware-ex#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
