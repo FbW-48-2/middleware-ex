@@ -1,0 +1,27 @@
+{
+  "name": "middleware-ex",
+  "version": "1.0.0",
+  "description": "This is small exercise to practice writing our custom middleware.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habidbesp/middleware-ex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habidbesp/middleware-ex/issues"
+  },
+  "homepage": "https://github.com/habidbesp/middleware-ex#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-error": "^0.0.6"
+  }
+}
