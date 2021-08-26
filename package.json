@@ -1,0 +1,27 @@
+{
+  "name": "middleware-ex",
+  "version": "1.0.0",
+  "description": "This is small exercise to practice writing our custom middleware.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marialouisee/middleware-ex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marialouisee/middleware-ex/issues"
+  },
+  "homepage": "https://github.com/marialouisee/middleware-ex#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "lowdb": "^2.1.0"
+  }
+}
