@@ -1,6 +1,4 @@
 import {capitalizeFunc} from './helpers/capitalize.js'
-import { fbw } from './isUserValid.js'
-
 
 export const capitalize = (req, res, next) => {
     let {firstName, lastName} = req.body
@@ -15,7 +13,6 @@ export const sortAlphabet = (req, res, next) => {
         let sortBack = 0
         return a<b ? sortBack= -1 : a>b ? sortBack = 1 : sortBack
     })
-    
     next()
 }
 
