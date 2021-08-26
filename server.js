@@ -13,7 +13,7 @@ app.use(function errorHandler(err, req, res, next){
         error: {
             message: err.message
         }})
-    console.log(err)
+   
 })
 
 app.listen(port, () => {
