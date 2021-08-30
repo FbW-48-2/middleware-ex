@@ -14,7 +14,7 @@ Both endpoints should be responsible for accepting a JSON object like the follow
   "firstName" : "steve",
   "lastName" : "stevenson",
   "age": "129",
-  "fbw": "36"
+  "fbw": "36",
   "profession" : "Musician",
   "favoriteBands" : ["Radiohead", "Motorhead", "Machinehead", "The talking heads" ],
   "email" : "steve@steve.com"
@@ -64,7 +64,7 @@ For the `/sanitizeUser` endpoint:
   "firstName" : "Steve",
   "lastName" : "Stevenson",
   "age": 129,
-  "fbw": 36
+  "fbw": 36,
   "profession" : "Musician",
   "favoriteBands" : ["Machinehead","Motorhead", "Radiohead",  "The Talking Heads" ],
   "email" : "steve@steve.com"
