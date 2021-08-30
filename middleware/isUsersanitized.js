@@ -21,4 +21,4 @@ export const changeToNum = (req, res, next) =>  {
     req.body.fbw = Number(fbw)
     req.body.age = Number(age)
     res.json(req.body)
-}
+} 
